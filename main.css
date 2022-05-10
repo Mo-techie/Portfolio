@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 12vh;
+    margin-top: 5rem;
+    color: #fff;
+    position: fixed;
+    z-index: 100;
+    /* background: #333; */
+}
+header nav div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+header img {
+    width: 75px;
+    height: 50px;
+    padding: 0 20px;
+}
+header nav {
+    width: 87%;
+    margin: 0 auto;
+    border-radius: 100px;
+    background: #585d65;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+nav ul {
+    /* padding: ; */
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 70px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header li a:hover{
+    color: #68e0cf;
+}
+header button:hover{
+    color:#68e0cf;
+    border: 2px solid #68e0cf;
+}
+
+header button {
+    padding: 25px 40px;
+    border-radius: 80px;
+    outline: none;
+    border: 2px solid #fff;
+    background: #585d65;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.links a:first-of-type {
+    color: #68e0cf;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    top: -11.8rem;
+    /* position: relative; */
+    z-index: -1;
+}
+section {
+    display: flex;
+    height: 100%;
+}
+.image-bg {
+    width: 45%;
+    background: green;
+    height: 100%;
+    position: fixed;
+    background-image: url(./assets/BEYOUTIFUL.jpeg);
+    background-size: cover;
+    background-position: 0;
+    
+}
+.overlay{
+    width: 100%;
+      height: 100%;
+      background-position: 0;
+      position: relative;
+      top: -1.rem;
+      left: 0;
+      background-color: rgba(0,128,128,0.4);
+}
+.left-section {
+    width: 48%;
+    height: 1500vh;
+    background: #373b40;
+    position: absolute;
+    left: 45%;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.name{
+    font-size: 70px;
+    padding: 80px 35px 80px 65px;
+    color: #fff;
+    font-weight: 900;
+    margin: 180px 0 0 -250px;
+    border-radius: 170px;
+    background-color:#373b40;
+    line-height: 1.2;
+    width: 480px;
+    align-self: center;
+
+}
+.Job-title{
+    text-transform: uppercase;
+    color: #68e0cf;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.Job-description{
+    color: #fff;
+    font-size: 23px;
+    text-align: justify;
+}
+menu button{
+    padding: 25px 25px;
+    border-radius: 80px;
+    outline: none;
+    border: 2px solid #808080 ;
+    background: #585d65;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+menu button:hover{
+    color: #68e0cf;
+    border: 2px solid #68e0cf;
+}
+
+/* ----About me section---- */
+.Introduction h2{
+    width: 100%;
+    padding-top: 100px;
+    border-top: 1px solid #808080;
+    color: #fff;
+    font-size: 60px;
+}
+.Introduction h3{
+    color: #68e0cf;
+    font-size: 25px;
+    padding: 30px 0 70px 0;
+}
+.Introduction p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Two-grid-column{
+    display: flex;
+    width: 100%;
+    padding: 50px 0 200px 0;
+    font-size: 5px;
+    justify-content: space-between;
+}
+.Two-grid-column p{
+    font-size: 23px;
+}
+
+
+.resident {
+    width: 50%;
+}
+
+a{
+    color: #fff;
+}
+
+/* ---Services---- */
+.Services-section{
+    border-top: 1px solid #585d65;
+    width: 100%;
+}
+ .Two-flex-column {
+     padding-top: 10px;
+     padding-bottom: 200px;
+     flex-wrap: wrap;
+ }
+ 
+ .Two-flex-column h3{
+     color: #fff;
+ }
+ 
+ #first-row {
+     width: 100%;
+     height: 500px;
+     display: flex;
+     padding-left: 28px;
+     font-size: 25px;
+     line-height: 2;
+ }
+
+ #second-row{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-left: 28px;
+    font-size: 25px;
+    line-height: 2; 
+    gap: 0, 50px;
+ }
+
+.Services-section p{
+    color: #68e0cf;
+    padding-bottom: 100px;
+}
+
+#second-row{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-content: center;
+}
+
+/* ---Experience section--- */
+
+.Experience-section{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    border-top: 1px solid #585d65;
+}
+.grid-template-columns{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0, 70px;
+}
+
+.Experience-section p{
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.date{
+    writing-mode: vertical-lr;
+    color: #68e0cf;
+    text-orientation: mixed;
+}
+
+#experience-title{
+    display: flex;
+    color:#fff;
+    padding-bottom: 60px;
+}
+.title-name{
+    font-size: 25px;
+}
+
+
+.Education-section{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    border-top: 1px solid #585d65;
+}
+.grid-template-columns{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 0, 70px;
+}
+
+.Education-section p{
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.date{
+    writing-mode: vertical-lr;
+    color: #68e0cf;
+    text-orientation: mixed;
+}
+
+#education-title{
+    display: flex;
+    color:#fff;
+    padding-bottom: 60px;
+}
+.title-name{
+    font-size: 25px;
+}
+
+/* --Coding skills--- */
+
+.coding-skills{
+    width: 100%;
+    padding: 100px 0 200px 0;
+    border-top: 1px solid #585d65;
+}
+
+.coding-grid-columns{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 50px 30px; 
+    padding-top: 80px; 
+}
+
+.coding-skill-circle{
+    width: 130px;
+      height: 130px;
+      display: flex;
+      border: 2px solid #68e0cf;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+}
+
+/* ---Clients section--- */
+
+.clients{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #585d65;
+}
+
+.clients-section{
+    width: 100%;
+    padding: 100px 0 200px 0;
+}
+
+#clients-title-header p{
+    padding-bottom: 100px;
+}
+
+.images-of-partners{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    gap: 20px;
+    color: #585d65;
+}
+
+
+/* -----portfolio section--- */
+.Portfolio-section{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    border-top: 1px solid #585d65;
+}
+
+.Gallery{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    gap: 0 30px;
+    padding-top: 60px;   
+}
+.portfolio-img{
+    width: 300px;
+    height: 300px;
+}
+.portfolio-details{
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.portfolio-details>p{
+    color: aqua;
+    justify-content:space-evenly
+}
+.picture-wrapper{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+
+
+/* ----contact segment--- */
+
+.contact-section{
+    border-top: 1px solid #585d65;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+#Contact-title p{
+    padding-bottom: 100px;
+}
+.contact-form{
+    display: flex;
+    gap: 0 250px;
+}
+
+.information-wrapper{
+    width: 50%;
+    padding-top: -10px;
+}
+.label-border{
+    border: 1px solid #585d65 ;
+    background: none;  
+    margin-bottom: 150px;
+    padding: 20px 80px 40px 60px;
+    border-radius: 40px;
+    position: absolute;
+
+}
+.text-in {
+    position: relative;
+    padding-bottom: 40px;
+}
+.authors-role{
+    padding-bottom: 30px;
+}
+.label-text {
+    position: relative;
+    top: 11px;
+    left: 45px;
+    background: #373b40;
+    z-index: 10;
+}
+
+.contact-wrapper button{
+    padding: 15px 25px;
+    border-radius: 80px;
+    outline: none;
+    border: 1px solid #808080 ;
+    background: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+.signature{
+    padding-top: 45px;
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.authors-information{
+    border: 1px solid #585d65;
+    width: 100%;
+    line-height: 40px;
+    padding: 40px 40px 100px 40px;
+    max-height: 572px;
+    border-radius: 30px;
+    position: relative;
+} 
+
+/* ----socials---- */
+.socials {
+    width: 7%;
+    height: 100%;
+    background: #373b40;
+    position: fixed;
+    right: 0;
+    border-left: 1px solid #808080 ;
+    padding-top: 500px ;
+    padding-left: 30px;
+}
+.social-icons{
+      width: 80px;
+      height: 80px;
+      display: flex;
+      border: 1px solid #585d65;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+}
