@@ -29,14 +29,14 @@ header img {
     padding: 0 20px;
 }
 header nav {
-    width: 87%;
+    width: 90%;
     margin: 0 auto;
     border-radius: 100px;
     background: #585d65;
     height: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 5px;
 }
 nav ul {
     /* padding: ; */
@@ -50,7 +50,7 @@ nav ul {
 header li a {
     text-decoration: none;
     color: #fff;
-    padding: 0 70px;
+    padding: 0 40px;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
